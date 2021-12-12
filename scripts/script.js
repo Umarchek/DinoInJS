@@ -7,11 +7,15 @@ window.addEventListener('load', (e) => {
         if (start.innerHTML == "Stop") {
             start.innerHTML = "Start";
             cactus.classList.remove('cacON')
-
-
+            start.classList.remove('stop')
+            start.classList.add('start')
         } else {
             start.innerHTML = "Stop";
             cactus.classList.add('cacON')
+            start.classList.add('stop')
+            start.classList.remove('start')
+
+
 
             document.addEventListener('keydown', (event) => {
                 jump()
