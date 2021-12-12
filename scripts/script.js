@@ -37,6 +37,10 @@ window.addEventListener('load', (e) => {
 
                 if (cactusLeft < 50 && cactusLeft > 0 && dinoTop >= 140) {
                     alert("Game over.")
+                    start.innerHTML = "Start";
+                    cactus.classList.remove('cacON')
+                    start.classList.remove('stop')
+                    start.classList.add('start')
                 }
             }, 10)
         }
