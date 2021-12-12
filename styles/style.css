@@ -1,3 +1,6 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3),), url(http://source.unsplash.com/random/) no-repeat;
+}
 .game {
     width: 600px;
     height: 200px;
