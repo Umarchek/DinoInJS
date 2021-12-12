@@ -22,6 +22,9 @@
     position: relative;
     top: 110px;
     left: 580px;
+    
+}
+.cacON{
     animation: cactusMov 1s infinite linear;
 }
 @keyframes cactusMov {
@@ -48,4 +51,10 @@
     100%{
         top: 150px;
     }
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
